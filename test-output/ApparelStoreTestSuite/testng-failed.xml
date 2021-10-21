@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ApparelStoreTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Apparel Store Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.store.testCases.AccountCreationTests">
+        <methods>
+          <include name="stopTest"/>
+          <include name="beforeMethod"/>
+          <include name="getAccountCreationData"/>
+          <include name="createAccountCaseTest" invocation-numbers="0"/>
+          <include name="createAccountTest" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.store.testCases.AccountCreationTests -->
+    </classes>
+  </test> <!-- Apparel Store Test(failed) -->
+</suite> <!-- Failed suite [ApparelStoreTestSuite] -->
